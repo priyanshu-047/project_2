@@ -1,0 +1,45 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    z-index: 0;
+}
+header{
+    height: 60px;
+    background: #fff;
+    padding-left: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main{
+    background-color: rgb(230, 228, 221);
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    padding: 5%;
+    height: 95vh;
+
+}
+main>div{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    padding: 5%;
+}
+#img{
+    background-image: url("/poltry/img/new1.png");
+    height: 150px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 4%;
+    /* aspect-ratio: 1; */
+    background-size: 100% 100%;
+}
+main>div>p{
+    padding: 5%;
+    font-size: 1.2rem;
+}
